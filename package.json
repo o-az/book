@@ -1,0 +1,22 @@
+{
+  "name": "vocs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vocs dev",
+    "build": "bun --bun vocs build",
+    "preview": "vocs preview",
+    "check-links": "bun ./scripts/check-links.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vocs": "^1.0.13"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.19",
+    "@types/react": "^19.1.8",
+    "typescript": "^5.8.3"
+  }
+}
